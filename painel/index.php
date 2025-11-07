@@ -88,9 +88,9 @@ if (@count($res1) > 0) {
 	<meta charset="UTF-8">
 	<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="Description" content="Sistemas de Hugo Vasconcelos Portal Hugo Cursos">
-	<meta name="Author" content="Hugo Vasconcelos">
-	<meta name="Keywords" content="sistemas hugo vasconcelos, sistemas hugo, sistemas portal hugo cursos, portal hugocursos, sistema odontológico" />
+	<meta name="Description" content="AM Systems - Sistema de Consultas">
+	<meta name="Author" content="Abel Macedo">
+	<meta name="Keywords" content="am systems, sistema abel macedo, sistema de agendamento de consultas, sistema odontológico" />
 
 	<title><?php echo $nome_sistema ?></title>
 
@@ -573,6 +573,11 @@ if (@count($res1) > 0) {
 							<hr style="margin:5px">
 							<?php } ?>
 
+							<li class="slide <?php echo @$odontograma ?>">
+								<a class="side-menu__item" href="odontograma">
+									<i class="fa fa-tooth text-white"></i>
+									<span class="side-menu__label" style="margin-left: 15px">Odontogramas </span></a>
+							</li>
 
 							<li class="slide <?php echo @$tratamentos ?>">
 								<a class="side-menu__item" href="tratamentos">
@@ -667,8 +672,8 @@ if (@count($res1) > 0) {
 		<?php if ($pagina != 'vendas') { ?>
 			<div class="main-footer">
 				<div class="container-fluid pt-0 ht-100p">
-					Copyright © <?php echo date('Y'); ?> Desevolverdor <a href="https://www.monielsistemas.com.br" target="_blank"
-						class="text-primary"> hugocursos.com.br</a>. Todos
+					Copyright © <?php echo date('Y'); ?> Desevolverdor: <a href="https://www.monielsistemas.com.br" target="_blank"
+						class="text-primary"> AM Systems - Abel Macedo</a>. Todos
 					os direitos reservados
 				</div>
 			</div>

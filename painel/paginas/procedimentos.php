@@ -12,7 +12,7 @@ if(@$procedimentos == 'ocultar'){
 	<input type="hidden" name="exame" id="filtro_exame">
 	</form>
 
-	<a class="btn ripple btn-primary text-#0c546a" onclick="inserir()" type="button"><i class="fe fe-user-plus me-1"></i>
+	<a class="btn ripple btn-primary text-white" onclick="inserir()" type="button"><i class="fe fe-user-plus me-1"></i>
 				Adicionar <?php echo ucfirst($pag); ?></a>
 
 	

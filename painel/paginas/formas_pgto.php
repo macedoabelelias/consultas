@@ -11,7 +11,7 @@ if (@$formas_pgto == 'ocultar') {
 
 <div class="breadcrumb-header justify-content-between">
 	<div class="left-content mt-2">
-		<a class="btn ripple btn-primary text-#0c546a" onclick="inserir()" type="button"><i class="fe fe-plus me-1"></i>
+		<a class="btn ripple btn-primary text-white" onclick="inserir()" type="button"><i class="fe fe-plus me-1"></i>
 			Adicionar Forma de Pagamento</a>
 
 

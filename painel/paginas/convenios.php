@@ -7,7 +7,7 @@ if(@$convenios == 'ocultar'){
  ?>
 
 <div class="breadcrumb-header justify-content-between">
-<a class="btn ripple btn-primary text-#0c546a" onclick="inserir()" type="button"><i class="fe fe-plus me-1"></i>
+<a class="btn ripple btn-primary text-white" onclick="inserir()" type="button"><i class="fe fe-plus me-1"></i>
 				Adicionar <?php echo ucfirst($pag); ?></a>
 	
 	<big><a class="btn btn-danger" href="#" onclick="deletarSel()" title="Excluir" id="btn-deletar"

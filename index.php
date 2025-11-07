@@ -148,7 +148,7 @@ if ($linhas == 0) {
 
 											<div class="main-signin-footer text-center mt-3">
 
-												<p><a href="" class="mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color:#0c546a">Esqueceu sua
+												<p><a href="" class="mb-3" data-bs-toggle="modal" data-bs-target="#exampleModal" style="color:#96a991">Esqueceu sua
 														Senha?</a></p>
 											</div>
 										</div>
