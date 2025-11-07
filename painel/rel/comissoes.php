@@ -87,12 +87,12 @@ if($marca_dagua == 'Sim'){ ?>
 				</tr>
 				<tr >
 					<td style="width:10%; border-bottom: : 1px solid #000;"><b>NOME: </b></td>
-					<td style="width:40%; border-right: : 1px solid #000; border-bottom: : 1px solid #000;">
+					<td style="width:40%; border-bottom: : 1px solid #000; border-right: : 1px solid #000; ">
 						<?php echo mb_strtoupper($nome_tecnico) ?>
 					</td>
 					
 					<td style="width:10%; border-bottom: : 1px solid #000;"><b>CHAVE PIX: </b></td>
-					<td style="width:40%; border-bottom: : 1px solid #000;">
+					<td style="width:40%; border-bottom: : 1px solid #000; border-right: : 1px solid #000; " >
 						<?php echo $tipo_chave ?> <?php echo mb_strtoupper($pix_tecnico) ?>
 					</td>
     			</tr>
@@ -103,7 +103,7 @@ if($marca_dagua == 'Sim'){ ?>
 					</td>
 					
 					<td style="width:10%; "><b>EMAIL: </b></td>
-					<td style="width:40%; ">
+					<td style="width:40%; border-right: : 1px solid #000; ">
 						<?php echo mb_strtoupper($email_tecnico) ?>
 					</td>
     			</tr>

@@ -135,7 +135,7 @@ if($marca_dagua == 'Sim'){ ?>
 						<?php echo mb_strtoupper($telefone_paciente) ?>
 					</td>
 					<td style="width:5%; border-bottom: : 1px solid #000;"><b>GÊNERO:</b> </td>
-					<td style="width:5%; border-bottom: : 1px solid #000;">
+					<td style="width:5%; border-bottom: : 1px solid #000;  border-right: : 1px solid #000;">
 						<?php echo mb_strtoupper($sexo) ?>
 					</td>
     			</tr>
@@ -154,7 +154,7 @@ if($marca_dagua == 'Sim'){ ?>
 						<?php echo mb_strtoupper($data_nascF) ?>
 					</td>
 					<td style="width:13%; border-bottom: : 1px solid #000;"><b>TIPO SANGUÍNEO: </b></td>
-					<td style="width:5%; border-bottom: : 1px solid #000;">
+					<td style="width:5%; border-bottom: : 1px solid #000;  border-right: : 1px solid #000;">
 						<?php echo mb_strtoupper($tipo_sanguineo) ?>
 					</td>
     			</tr>
@@ -166,7 +166,7 @@ if($marca_dagua == 'Sim'){ ?>
 					
 					
 					<td style="width:10%; border-bottom: : 1px solid #000;"><b>ESTADO CIVIL: </b></td>
-					<td colspan="3" style="width:13%; border-bottom: : 1px solid #000;">
+					<td colspan="3" style="width:13%; border-bottom: : 1px solid #000;  border-right: : 1px solid #000;">
 						<?php echo mb_strtoupper($estado_civil) ?>
 					</td>
 					
@@ -179,7 +179,7 @@ if($marca_dagua == 'Sim'){ ?>
 					
 					
 					<td style="width:10%; border-bottom: : 1px solid #000;"><b>ENDEREÇO: </b></td>
-					<td colspan="3" style="width:13%; border-bottom: : 1px solid #000;">
+					<td colspan="3" style="width:13%; border-bottom: : 1px solid #000;  border-right: : 1px solid #000;">
 						<?php echo mb_strtoupper($endereco_paciente) ?>
 					</td>
 					
@@ -193,7 +193,7 @@ if($marca_dagua == 'Sim'){ ?>
 					
 					
 					<td style="width:10%;border-bottom: : 1px solid #000;"><b>CPF RESP: </b></td>
-					<td colspan="3" style="width:13%; border-bottom: : 1px solid #000;">
+					<td colspan="3" style="width:13%; border-bottom: : 1px solid #000;  border-right: : 1px solid #000;">
 						<?php echo mb_strtoupper($cpf_responsavel) ?>
 					</td>
 					
