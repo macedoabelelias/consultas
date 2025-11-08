@@ -10,6 +10,7 @@ $tarefas = 'ocultar';
 $lancar_tarefas = 'ocultar';
 $orcamentos = 'ocultar';
 $tratamentos = 'ocultar';
+$odontogramas = 'ocultar';
 
 
 //grupo pessoas
@@ -82,15 +83,17 @@ if($total_reg > 0){
 			$lancar_tarefas = '';
 		}
 
-			if($chave == 'orcamentos'){
+		if($chave == 'orcamentos'){
 			$orcamentos = '';
 		}
 
-				if($chave == 'tratamentos'){
+		if($chave == 'tratamentos'){
 			$tratamentos = '';
 		}
 
-
+		if($chave == 'odontogramas'){
+			$odontogramas = '';
+		}
 
 	
 		if($chave == 'usuarios'){

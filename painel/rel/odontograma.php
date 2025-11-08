@@ -5,6 +5,7 @@ include('data_formatada.php');
 $id = $_GET['id'];
 
 $id_paciente = $id;
+$id_odontograma = $id;
 
 $query = $pdo->query("SELECT * from odontograma where id = '$id'");
 $res = $query->fetchAll(PDO::FETCH_ASSOC);

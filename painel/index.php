@@ -573,8 +573,8 @@ if (@count($res1) > 0) {
 							<hr style="margin:5px">
 							<?php } ?>
 
-							<li class="slide <?php echo @$odontograma ?>">
-								<a class="side-menu__item" href="odontograma">
+							<li class="slide <?php echo @$odontogramas ?>">
+								<a class="side-menu__item" href="odontogramas">
 									<i class="fa fa-tooth text-white"></i>
 									<span class="side-menu__label" style="margin-left: 15px">Odontogramas </span></a>
 							</li>

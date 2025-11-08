@@ -88,7 +88,7 @@ if(@$consultas == 'ocultar'){
 						</div>
 						<div style="margin-bottom: 5px; border-bottom:1px solid #cecece; padding-bottom:3px">			
 							<span style="margin-right: 20px"><b>Tipo Sanguíneo</b> <span id="tipo_dados"></span></span>			
-						<span style="margin-right: 20px"><b>Sexo</b> <span id="sexo_dados"></span></span>
+						<span style="margin-right: 20px"><b>Gênero</b> <span id="sexo_dados"></span></span>
 						<span style=""><b>Convênio</b> <span id="convenio_dados"></span></span>
 						</div>
 						<div style="margin-bottom: 5px; border-bottom:1px solid #cecece; padding-bottom:3px">			

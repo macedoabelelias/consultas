@@ -125,19 +125,19 @@ HTML;
 <td>
 	<big><a class="btn btn-info-light btn-sm" class="" href="#" onclick="editar('{$id}','{$nome}','{$email}','{$telefone}','{$endereco}','{$cpf}','{$tipo_pessoa}','{$data_nasc}','{$numero}','{$bairro}','{$cidade}','{$estado}','{$cep}','{$complemento}','{$tipo_sanguineo}','{$sexo}','{$profissao}','{$estado_civil}','{$convenio}','{$nome_responsavel}','{$cpf_responsavel}','{$telefone2}','{$obs}')" title="Editar Dados"><i class="fa fa-edit text-info"></i></a></big>
 
-
-		<big><a class="btn btn-danger-light btn-sm" href="#" onclick="excluir('{$id}')" title="Excluir"><i class="fa fa-trash-can"></i></a></big>
+    <big><a class="btn btn-danger-light btn-sm" href="#" onclick="excluir('{$id}')" title="Excluir"><i class="fa fa-trash-can"></i></a></big>
 		
-
 	<big><a class="btn btn-primary-light btn-sm" href="#" onclick="mostrar('{$nome}','{$telefone}','{$endereco}','{$data_nascF}','{$tipo_sanguineo}','{$nome_responsavel}','{$nome_convenio}', '{$sexo}','{$obs}','{$idade}','{$id}','{$id}','{$profissao}','{$estado_civil}')" title="Mostrar Dados" title="Mostrar Dados"><i class="fa fa-info-circle "></i></a></big>
 
-		<big><a class="btn btn-primary-light btn-sm " href="#" onclick="anamnese('{$id}', '{$nome}')" title="Editar Anamnese"><i class="fa fa-stethoscope "></i></a></big>		
+	<big><a class="btn btn-primary-light btn-sm " href="#" onclick="anamnese('{$id}', '{$nome}')" title="Editar Anamnese"><i class="fa fa-file "></i></a></big>		
 
-		<big><a class="btn btn-dark-light btn-sm " href="#" onclick="consultas('{$id}', '{$nome}')" title="Últimas Consultas"><i class="fa fa-stethoscope "></i></a></big>
+	<big><a class="btn btn-dark-light btn-sm " href="#" onclick="consultas('{$id}', '{$nome}')" title="Últimas Consultas"><i class="fa fa-stethoscope "></i></a></big>
 
-<big><a class="btn btn-success-light btn-sm" href="#" onclick="mostrarContas('{$nome}','{$id}')" title="Mostrar Contas"><i style="color: green" class="fa fa-hand-holding-dollar"></i></a></big>
+	<big><a class="btn btn-dark-light btn-sm " href="#" onclick="odontograma('{$id}', '{$nome}')" title="Últimas Consultas"><i class="fa fa-tooth "></i></a></big>
 
-		<big><a class="btn btn-dark-light btn-sm" href="#" onclick="arquivo('{$id}', '{$nome}')" title="Inserir / Ver Arquivos"><i class="fa fa-archive taxt-secondary"></i></a></big>
+	<big><a class="btn btn-success-light btn-sm" href="#" onclick="mostrarContas('{$nome}','{$id}')" title="Mostrar Contas"><i style="color: green" class="fa fa-hand-holding-dollar"></i></a></big>
+
+	<big><a class="btn btn-dark-light btn-sm" href="#" onclick="arquivo('{$id}', '{$nome}')" title="Inserir / Ver Arquivos"><i class="fa fa-archive taxt-secondary"></i></a></big>
 
 
 
@@ -429,5 +429,25 @@ function listarConsultas(id){
         }
     });
 }
+
+function odontograma(paciente, nome, id_odo, descricao_odo, evolutivo_odo){
+
+		$('#id').val(id_odo);
+		$('#cliente').val(paciente).change();	
+		$('#nome_odontograma').text(nome);
+		$('#descricao').val(descricao_odo);
+		$('#evolutivo').val(evolutivo_odo);	
+		$('#modalOdontograma').modal('show');
+		listarClientes(paciente);
+
+		setTimeout(function() {
+		 listarPermanentes();
+			           listarDeciduos();		           
+			           limparCamposItens();   
+			           limparEstilos();
+			           listarItens();	  
+		}, 600)
+}
+
 
 </script>
