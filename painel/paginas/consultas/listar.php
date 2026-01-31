@@ -190,9 +190,9 @@ echo <<<HTML
 
 		<big><a href="#" class="btn btn-warning-light btn-sm {$classe_obs}" onclick="obs('{$obs}')" title="Mostrar Observações"><i class="fa fa-info-circle"></i></a></big>
 
-		<big><a class="btn btn-primary-light btn-sm " href="#" onclick="anamnese('{$cliente}', '{$nome_paciente}')" title="Editar Anamnese"><i class="fa fa-stethoscope "></i></a></big>
+		<big><a class="btn btn-primary-light btn-sm " href="#" onclick="anamnese('{$cliente}', '{$nome_paciente}')" title="Editar Anamnese"><i class="fa fa-heartbeat "></i></a></big>
 
-		<big><a class="btn btn-success-light btn-sm " href="#" onclick="exames('{$cliente}', '{$nome_paciente}')" title="Solicitar Raio X"><i class="fa fa-files-o"></i></a></big>
+		<big><a class="btn btn-success-light btn-sm " href="#" onclick="exames('{$cliente}', '{$nome_paciente}')" title="Solicitar Exames"><i class="fa fa-files-o"></i></a></big>
 	
 		<big><a class="btn btn-danger-light btn-sm " href="#" onclick="atestado('{$cliente}', '{$nome_paciente}')" title="Gerar Atestado"><i class="fa fa-file-pdf-o"></i></a></big>
 
