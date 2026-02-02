@@ -81,11 +81,11 @@ body {font-family: 'Tw Cen MT', sans-serif;}
 
 	left:50;
 
-	top:130;
+	top:200;
 
 	width:80%;
 
-	opacity:10%;
+	opacity:5%;
 
 }
 
@@ -123,7 +123,7 @@ if($marca_dagua == 'Sim'){ ?>
 
 				<td style="border: 1px; solid #000; width: 20%; text-align: left;">
 
-					<img style="margin-top: 5px; margin-left: 7px;" id="imag" src="<?php echo $url_sistema ?>img/logo.jpg" width="140px">
+					<img style="margin-top: 1px; margin-left: 7px; border-radius:8px" id="imag" src="<?php echo $url_sistema ?>img/logo.jpg" width="115px">
 
 				</td>
 
